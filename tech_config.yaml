@@ -13,6 +13,6 @@ layout:
 # transistor technology parameters
 mos:
   # the transistor width minimum resolution.
-  width_resolution: !!float 5e-9
+  width_resolution: 5.0e-9
   # the transistor length minimum resolution.
-  length_resolution: !!float 5e-9
+  length_resolution: 5.0e-9
