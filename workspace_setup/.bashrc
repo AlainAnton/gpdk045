@@ -9,7 +9,7 @@ export CDS_Netlisting_Mode="Analog"
 export CDS_AUTO_64BIT=ALL
 
 # setup virtuoso
-export CDS_INST_DIR=/tools/cadence/ICADV/ICADV123
+export CDS_INST_DIR=/tools/cadence/IC/IC617
 export SPECTRE=/tools/cadence/SPECTRE/SPECTRE191
 export MMSIM_HOME=/tools/cadence/MMSIM151
 export CDSHOME=$CDS_INST_DIR
