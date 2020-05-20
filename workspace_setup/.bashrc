@@ -10,6 +10,7 @@ export CDS_AUTO_64BIT=ALL
 
 # setup virtuoso
 export CDS_INST_DIR=/tools/cadence/ICADV/ICADV123
+export SPECTRE=/tools/cadence/SPECTRE/SPECTRE191
 export MMSIM_HOME=/tools/cadence/MMSIM151
 export CDSHOME=$CDS_INST_DIR
 export ASSURAHOME=/tools/cadence/ASSURA/ASSURA_613_41_lnx86

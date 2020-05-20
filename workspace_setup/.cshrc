@@ -12,9 +12,9 @@ setenv CDS_Netlisting_Mode "Analog"
 
 
 # Setup Additional Tools
-setenv SPECTRE /tools/cadence/SPECTRE/SPECTRE161
+setenv SPECTRE /tools/cadence/SPECTRE/SPECTRE191
 setenv MMSIM_HOME   /tools/cadence/MMSIM/MMSIM151
-setenv CDS_INST_DIR /tools/cadence/ICADV/ICADV123
+setenv CDS_INST_DIR /tools/cadence/IC/IC617
 setenv CDSHOME      $CDS_INST_DIR
 setenv ASSURAHOME   /tools/cadence/ASSURA/AASSURA_613_41_lnx86
 setenv IUSHOME      /tools/cadence/IUS/IUS82_USR5_lnx
