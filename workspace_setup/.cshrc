@@ -12,7 +12,7 @@ setenv CDS_Netlisting_Mode "Analog"
 
 
 # Setup Additional Tools
-setenv SPECTRE /tools/cadence/SPECTRE/SPECTRE191
+setenv SPECTRE      /tools/cadence/SPECTRE/SPECTRE191
 setenv MMSIM_HOME   /tools/cadence/MMSIM/MMSIM151
 setenv CDS_INST_DIR /tools/cadence/IC/IC617
 setenv CDSHOME      $CDS_INST_DIR
@@ -36,6 +36,7 @@ setenv PDK_CAD_FILES /tools/cadence/GPDK/gpdk045_v_6_0
 
 set path = ( ${CDSLIB_TOOL}/bin \
     $path \
+    ${SPECTRE}/bin \
     ${MMSIM_HOME}/tools/bin \
     ${CDS_INST_DIR}/tools/bin \
     ${CDS_INST_DIR}/tools/dfII/bin \
