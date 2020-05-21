@@ -13,11 +13,8 @@ export CDS_INST_DIR=/tools/cadence/IC/IC617
 export SPECTRE=/tools/cadence/SPECTRE/SPECTRE191
 export MMSIM_HOME=/tools/cadence/MMSIM151
 export CDSHOME=$CDS_INST_DIR
-export ASSURAHOME=/tools/cadence/ASSURA/ASSURA_613_41_lnx86
 
 # PATH setup
-export PATH="${ASSURAHOME}/tools/dfII/bin:${PATH}"
-export PATH="${ASSURAHOME}/tools/bin:${PATH}"
 export PATH="${CDS_INST_DIR}/tools/plot/bin:${PATH}"
 export PATH="${CDS_INST_DIR}/tools/dfII/bin:${PATH}"
 export PATH="${CDS_INST_DIR}/tools/bin:${PATH}"
