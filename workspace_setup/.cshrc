@@ -9,6 +9,7 @@ setenv RLM_LICENSE 5053@sunv40z-1.eecs.berkeley.edu
 # Cadence Settings
 setenv SPECTRE_DEFAULTS -E
 setenv CDS_Netlisting_Mode "Analog"
+setenv CDS_AUTO_64BIT ALL
 
 
 # Setup Additional Tools
@@ -18,13 +19,12 @@ setenv CDS_INST_DIR /tools/cadence/IC/IC617
 setenv CDSHOME      $CDS_INST_DIR
 
 
-set path = ( ${CDSLIB_TOOL}/bin \
-    $path \
-    ${SPECTRE}/bin \
+set path = ( ${SPECTRE}/bin \
     ${MMSIM_HOME}/tools/bin \
     ${CDS_INST_DIR}/tools/bin \
     ${CDS_INST_DIR}/tools/dfII/bin \
     ${CDS_INST_DIR}/tools/plot/bin \
+    $path \
     )
 
 
