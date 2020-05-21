@@ -1,6 +1,11 @@
 
 printf("STARTING CDSINIT\n")
 
+envSetVal("spectre.envOpts" "modelFiles" 'string strcat(env(PDK_CAD_FILES) "models/spectre/gpdk045.scs;TT"))
+envSetVal("spectre.envOpts" "includePath" 'string strcat(env(PDK_CAD_FILES) "models/spectre"))
+
+
+
 ; load configuration skill scripts.
 let( (configFileList file path saveSkillPath)
     configFileList = '(
